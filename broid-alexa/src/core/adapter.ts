@@ -1,7 +1,7 @@
 import * as Promise from "bluebird";
 import broidSchemas from "broid-schemas";
 import { Logger } from "broid-utils";
-import * as EventEmitter from "eventemitter3";
+import { EventEmitter } from 'events';
 import { Router  } from "express";
 import * as uuid from "node-uuid";
 import * as R from "ramda";
